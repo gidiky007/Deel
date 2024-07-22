@@ -1,0 +1,185 @@
+<!doctype html>
+<html amp lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>A Case Study on Deel: How We Saw the Need for an HRIS</title>
+    <link rel="canonical" href="deel-hris-case-study.html" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <meta name="author" content="Shannon Hodgen">
+
+    <meta name="description" content="Learn about the making of Deel HR, an all-in-one HRIS built to scale with you, no matter who or where you are.">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="generator" content="HubSpot">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "A Case Study on Deel: How We Saw the Need for an HRIS",
+        "datePublished": "2023-01-23T19:18:13Z",
+        "dateModified": "2023-03-24T23:40:51.996Z",
+        "mainEntityOfPage": "https://www.deel.com/resources/deel-hris-case-study",
+        "author": {
+          "@type": "Person",
+          "name": "Shannon Hodgen"
+        },
+        "image": {
+         "@type": "ImageObject",
+        
+          
+          "width": 500,
+          
+          
+          "height": 500,
+          
+          "url": "https://19498232.fs1.hubspotusercontent-na1.net/hubfs/19498232/Resources%20images/global_hiring_orange.png"
+        
+        },
+        "publisher" : {
+          "@type": "Organization",
+          "logo": {
+            "@type": "ImageObject",
+            
+            "url": "/hs/hsstatic/content_shared_assets/static-1.4092/img/default-amp-logo.png",
+            "width": 60,
+            "height": 60
+            
+          },
+          "name": "Resources"
+        }
+      }
+    </script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript>
+      <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+    </noscript>
+  <style amp-custom>body {
+        color: #404040;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      .hs-page-width-normal {
+        box-sizing: content-box;
+        margin: 0 auto;
+        padding: 0 5vw 5vw;
+      }
+
+      .info {
+        font-size: 14px
+      }
+
+      h1 {
+        color: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 26px;
+        line-height: 1.5;
+        font-weight: 600;
+      }
+
+      h1 a {
+        color: #404040;
+      }
+
+      h2 {
+        color: #404040;
+        font-size: 22px;
+        line-height: 38px;
+      }
+
+      a {
+        color: #416bb3;
+        text-decoration: none;
+      }
+
+      .logo-header-text {
+        color: #1e1e1e;
+        font-size: 36px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        line-height: 2.0;
+        font-weight: bold;
+        vertical-align: text-bottom;
+      }
+
+      .hs-page-width-normal {
+        padding: 5vw;
+      }
+
+      .iframe-placeholder {
+        background-color: #bbb;
+      }
+
+      .header-banner {
+        padding: 3vw 1vw;
+        border-color: #dcdcdc;
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        background-color: #ffffff;
+        color: #1e1e1e;
+        text-align: center;
+      }
+
+      .full-link {
+        text-align: center;
+      }
+
+      .full-link a {
+        border: 1px solid #dcdcdc;
+        background-color: transparent;
+        color: #416bb3;
+        cursor: pointer;
+        display: block;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 auto;
+        max-width: 200px;
+        padding: 11px 16px;
+        text-decoration: none;
+        width: 50%;
+      }
+
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+  </head>
+  <body>
+    <div class="row-fluid">
+      <div class="header-banner">
+        <a class="blog-link" href="../resources.html">
+        
+          <span class="logo-header-text">Top payroll & HR resources for HR professionals</span>
+         </a>
+      </div>  
+      <div class="hs-page-width-normal">
+        <div class="post-header">
+          <h1><a href="deel-hris-case-study.html">A Case Study on Deel: How We Saw the Need for an HRIS</a></h1>
+        </div>
+        <div class="info">
+          <span> Written by <a class="author-link" href="author/shannon-hodgen.html">Shannon Hodgen</a> | Jan 23, 2023 7:18:13 PM </span>
+        </div>
+        <div class="blog-section">
+          <span><h3>Get a behind-the-scenes look at why and how we built Deel HR.</h3>
+<p>At Deel, we have over 2,000 workers spread across 100+ countries. Like other global teams, we needed an HRIS that could support our international workers—a platform with localization, customization, and a seamless user experience.&nbsp;</p>
+<p>So, we built Deel HR, the only global-first HRIS for everyone, everywhere.</p>
+<p>Our decision to build Deel HR wasn’t based on our needs alone. We also interviewed HRIS and non-HRIS users to determine what modern teams need from an HR platform. The result is a global HRIS that enables you to:</p>
+<ul>
+<li>Save costs by consolidating multiple HR platforms into one</li>
+<li>View all your workforce data in one place</li>
+<li>Manage onboarding, payroll, and compliance in any country</li>
+<li>Build a stronger company culture with Deel Engage plugins<br><br></li>
+</ul>
+<p>Read this case study to get a closer look at the unique features and functions of Deel HR.</p></span>
+        </div>
+        <div class="full-link">
+          <a href="deel-hris-case-study.html">View full post</a>
+        </div>
+      </div>
+    </div>
+    
+    <amp-pixel src="https://track.hubspot.com/__ptq.gif?cd=SCREEN_COLOR_DEPTH-bit&cs=DOCUMENT_CHARSET&ln=BROWSER_LANGUAGE&sd=AVAILABLE_SCREEN_WIDTHxAVAILABLE_SCREEN_HEIGHT&v=1.1&iaa=1&k=1&ccu=CANONICAL_URL&r=DOCUMENT_REFERRER&ct=blog-post&t=A+Case+Study+on+Deel%3A+How+We+Saw+the+Need+for+an+HRIS&pi=99168593202&a=19498232&nc=true&cgi=69616392106&lvi=99168593202&lvc=en&vi=CLIENT_ID(hubspotutk)&ai=CLIENT_ID(amputk)">
+    </amp-pixel>
+    
+  </body>
+</html>

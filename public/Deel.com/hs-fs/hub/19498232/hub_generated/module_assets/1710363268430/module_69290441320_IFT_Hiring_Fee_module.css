@@ -1,0 +1,200 @@
+
+.ift_hiring_fee_module {
+    background:#15357A;
+    background-size: cover;
+    background-position: center center;
+    min-height:696px;
+    display: flex;
+    align-items: center;
+}
+.ift_hiring_fee_module .heading_section {
+  text-align:center;
+  padding-bottom:34px;
+}
+.ift_hiring_fee_module .heading_section h2.main_heading {
+  font-weight:700;
+  font-size:48px;
+  color:#FFFFFF;
+  line-height:67.2px;
+  padding-bottom:32px;
+}
+.ift_hiring_fee_module .heading_section p.blurb_section {
+  font-weight:400;
+  font-size:16px;
+  color:#FFFFFF;
+  line-height:27.52px;
+}
+.ift_hiring_fee_module .management {
+  display: flex;
+  justify-content: flex-end;
+/*   padding-right:20px; */
+}
+.ift_hiring_fee_module .employer {
+  display: flex;
+  justify-content: flex-start;
+
+}
+.ift_hiring_fee_module .span12 {
+  margin-left:0;
+  
+}
+.ift_hiring_fee_module .management_fee {
+  border:1px solid #FFFFFF;
+  padding:16px 24px 16px 24px;
+  border-radius:16px;
+  width:100%;
+  max-width: 350px;
+  min-height:142px; 
+  display: flex;
+  align-items: flex-start;  
+}
+.ift_hiring_fee_module .employer_cost img{
+    padding-top: 10px;
+    padding-right: 37px;
+}
+.ift_hiring_fee_module .management_fee img {
+    padding-top: 10px;
+    padding-right: 37px;
+}
+.ift_hiring_fee_module .employer_cost {
+  border:1px solid #FFFFFF;
+  padding:16px 24px 16px 24px;
+  border-radius:16px;
+  width:100%;
+  max-width: 350px;
+  min-height:142px;
+  display: flex;
+    align-items: flex-start;
+
+}
+
+.ift_hiring_fee_module .management_fee .text_section h2.amount {
+   font-weight:700;
+  font-size:48px;
+  color:#FFA9C6;
+  line-height:67.2px;
+  margin:0 !important;
+}
+.ift_hiring_fee_module .management_fee .text_section h2.amount small {
+  font-size: 14px;
+  line-height: 1.2;
+  display: block;
+}
+.ift_hiring_fee_module .employer_cost .text_section h2.amount {
+   font-weight:700;
+  font-size:48px;
+  color:#BD80FF;
+  line-height:67.2px;
+  margin:0 !important;
+}
+.ift_hiring_fee_module .management_fee .text_section p.description {
+  font-weight:400;
+  font-size:14px;
+  color:#FFFFFF;
+  line-height:24.08px;
+  margin:0;
+}
+.ift_hiring_fee_module .employer_cost .text_section p.description {
+   font-weight:400;
+  font-size:14px;
+  color:#FFFFFF;
+  line-height:24.08px;
+   margin:0;
+}
+.ift_hiring_fee_module .employer_cost .text_section p.additional_description {
+  font-weight:400;
+  font-size:7px;
+  color:#FFFFFF;
+  line-height:10.5px;
+  margin:0;
+}
+.ift_hiring_fee_module .bottom_section {
+  padding-top:34px;
+  text-align:center;
+}
+.ift_hiring_fee_module .bottom_section h3 {
+  font-weight:400;
+  font-size:20px;
+  color:#FFFFFF;
+  line-height:31px;
+  padding-bottom:16px;
+}
+.ift_hiring_fee_module .bottom_section .btn {
+  font-weight:400;
+  font-size:20px;
+  line-height:30px;
+/*   display:flex !Important; */
+  justify-content:center;
+}
+.ift_hiring_fee_module .btn-text:after {
+    content: url(https://f.hubspotusercontent30.net/hubfs/19498232/Global%20Hiring%20Guides/arrow-right.svg) !important;
+}
+
+
+
+@media (max-width: 1024px) {
+  .ift_hiring_fee_module .management {
+    padding-right:0;
+    padding-bottom:10px;
+  }
+  .ift_hiring_fee_module .management_fee, .ift_hiring_fee_module .employer_cost {
+    padding: 10px 16px 10px 16px;
+    align-items: center;
+  }
+  .ift_hiring_fee_module .employer_cost .text_section p.additional_description {
+    font-size: 7px !important;
+  }
+  .ift_hiring_fee_module .employer {
+   padding-left:0;
+  }
+    
+    .ift_hiring_fee_module .employer_cost img{
+      padding-top: 0px;
+      padding-right: 27px;
+      margin-top: -7px;
+  }
+    .ift_hiring_fee_module .management_fee img {
+      padding-top: 0px;
+      padding-right: 51px;
+      margin-top: -7px;
+    }
+    
+      @media (max-width: 600px) {
+        
+          .ift_hiring_fee_module .heading_section {
+            padding-bottom:30px;
+        }
+        .ift_hiring_fee_module .heading_section h2.main_heading {
+          font-size:32px !important;
+          line-height: initial;
+          padding-top:20px;
+          padding-bottom:10px;
+        }
+       .ift_hiring_fee_module .bottom_section .btn {
+          font-size: 16px;
+        }
+      .ift_hiring_fee_module .heading_section p.blurb_section {
+          margin-bottom: 0;
+      }
+        .ift_hiring_fee_module .employer,.ift_hiring_fee_module .management {
+          justify-content:center !important;
+        }
+         .ift_hiring_fee_module {
+           padding-bottom:20px;
+        }
+      .ift_hiring_fee_module .employer_cost .text_section h2.amount,.ift_hiring_fee_module .management_fee .text_section h2.amount {
+          line-height: initial;
+        }
+        .ift_hiring_fee_module .management_fee ,.ift_hiring_fee_module .employer_cost {
+          min-height:110px;
+        }
+        .ift_hiring_fee_module .bottom_section h3 {
+          font-size:18px !important;
+        }
+      .ift_hiring_fee_module .management_fee ,.ift_hiring_fee_module .employer_cost  {
+        padding: 16px 24px 16px 24px;
+        align-items: center;
+       }
+        
+       
+    }

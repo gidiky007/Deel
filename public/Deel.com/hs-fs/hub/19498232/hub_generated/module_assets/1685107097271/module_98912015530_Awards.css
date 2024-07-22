@@ -1,0 +1,29 @@
+.awards {
+  padding: 64px 64px;
+}
+.awards .container {
+  max-width: 1312px;
+  padding: 0;
+}
+.awards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.awards-container .awards-heading {
+  flex-basis: 35%;
+}
+.awards-container .awards-img {
+  flex-basis: 55%;
+}
+
+@media screen and (max-width: 991px) {
+  .awards {
+    padding: 32px 16px;
+  }
+  .awards-container {
+    flex-direction: column;
+  }
+  .awards h3 {
+    margin-bottom: 12px;
+}

@@ -1,0 +1,50 @@
+/* OY */
+.question {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+	  justify-content: space-between;
+    position: relative; /* Establish positioning context for icon */
+}
+
+.option {
+    margin: 10px 0;
+    padding: 10px 40px 10px 0; /* prevent overlap w icon */
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s
+		outline: none;
+}
+
+.option:hover {
+    border-color: #15357a;
+	  -webkit-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+	  opacity: 0.7;
+}
+
+.explanation {
+    display: none;
+    margin: 10px 0;
+}
+
+.accordion-section {
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    position: relative;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-anchor: none;
+    border: 1px solid rgb(232, 235, 242);
+    border-radius: 8px;
+    margin-bottom: 4px;
+    padding: 0px 24px;
+}
+
+.expand-icon {
+    position: absolute;
+    right: 10px;
+    transition: transform 0.3s;
+}
+
+.question.active .expand-icon {
+    transform: rotate(180deg);
+}

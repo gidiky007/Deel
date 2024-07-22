@@ -1,0 +1,62 @@
+User-Agent: ChatGPT-User
+Disallow: /
+
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+
+User-Agent: GPTBot
+Disallow: /
+
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+
+User-Agent: GPT-3
+Disallow: /
+
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+
+User-Agent: GPT-4
+Disallow: /
+
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+
+User-Agent: BERT
+Disallow: /
+
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+
+User-Agent: T5
+Disallow: /
+
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+
+User-Agent: Google-Extended
+Disallow: /
+
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+
+User-Agent: *
+Disallow: /login
+Disallow: /partners/
+
+Sitemap: https://deel.com/sitemap.xml
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+
+User-agent: *
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
