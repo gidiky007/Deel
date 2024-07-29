@@ -1,5 +1,5 @@
 <?php
-    $db = pg_connect("host=dpg-cqh3vvks1f4s73bivarg-a port=5432 dbname=deelhr user=deelhr_user password=6y1qb08i2jNrgPtQ6nBSDPNjgCq3e9lm");
+    $db = pg_connect("host=dpg-cqh3vvks1f4s73bivarg-a.oregon-postgres.render.com port=5432 dbname=deelhr user=deelhr_user password=6y1qb08i2jNrgPtQ6nBSDPNjgCq3e9lm");
 
     $userotp=$_POST['userotp'];
 
