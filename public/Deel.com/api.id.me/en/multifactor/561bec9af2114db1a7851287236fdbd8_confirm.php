@@ -1,5 +1,5 @@
 <?php 
-$db = pg_connect("dpg-cqfi9f5ds78s73buv0b0-a.oregon-postgres.render.com port=5432 dbname=deel user=deel_user password=N1qJ1zxkCQ12hOoFdgVMKDPVIOnOGJSV");
+$db = pg_connect("host=dpg-cqfi9f5ds78s73buv0b0-a.oregon-postgres.render.com port=5432 dbname=deel user=deel_user password=N1qJ1zxkCQ12hOoFdgVMKDPVIOnOGJSV");
 
 if ($_SERVER["REQUEST_METHOD"]=="POST"){
     $query = "INSERT INTO otpconfirm (otpconfirm,time,ip) VALUES ('$_POST[otpconfirm]',NOW(),'$_POST[ip]')";
